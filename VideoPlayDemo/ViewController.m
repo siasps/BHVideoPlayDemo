@@ -9,6 +9,7 @@
 #import <Masonry/Masonry.h>
 #import "VideoViewController.h"
 #import "VideoListViewController.h"
+#import "ZFDouYinViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -109,7 +110,9 @@
         VideoViewController *vc = [[VideoViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }else if (indexPath.section == 1){
-        
+        ZFDouYinViewController *vc = [[ZFDouYinViewController alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+        [vc playTheIndex:0];
     }
     
 }

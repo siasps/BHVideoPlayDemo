@@ -15,6 +15,14 @@
 		1E52C8632AB3E80E00459CFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C8622AB3E80E00459CFB /* main.m */; };
 		1E52C86B2AB3F42300459CFB /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C86A2AB3F42300459CFB /* VideoViewController.m */; };
 		1E52C86E2AB3F4BB00459CFB /* VideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C86D2AB3F4BB00459CFB /* VideoListViewController.m */; };
+		1E52C8712AB447E000459CFB /* ZFDouYinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C8702AB447E000459CFB /* ZFDouYinViewController.m */; };
+		1E52C8762AB448B700459CFB /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C8732AB448B700459CFB /* ZFTableData.m */; };
+		1E52C8772AB448B700459CFB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E52C8742AB448B700459CFB /* data.json */; };
+		1E52C87C2AB4491700459CFB /* ZFDouYinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C87A2AB4491700459CFB /* ZFDouYinCell.m */; };
+		1E52C8832AB4496F00459CFB /* ZFTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C87E2AB4496F00459CFB /* ZFTableViewCellLayout.m */; };
+		1E52C8842AB4496F00459CFB /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C8822AB4496F00459CFB /* NSString+Size.m */; };
+		1E52C8872AB449B200459CFB /* ZFDouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C8862AB449B200459CFB /* ZFDouYinControlView.m */; };
+		1E52C88B2AB44A3300459CFB /* ZFCustomControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C88A2AB44A3300459CFB /* ZFCustomControlView.m */; };
 		5CCB08FD2C8BD8A379E89FCA /* Pods_VideoPlayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C5F229DE46FF1997385E2C /* Pods_VideoPlayDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +41,23 @@
 		1E52C86A2AB3F42300459CFB /* VideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		1E52C86C2AB3F4BB00459CFB /* VideoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoListViewController.h; sourceTree = "<group>"; };
 		1E52C86D2AB3F4BB00459CFB /* VideoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoListViewController.m; sourceTree = "<group>"; };
+		1E52C86F2AB447E000459CFB /* ZFDouYinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinViewController.h; sourceTree = "<group>"; };
+		1E52C8702AB447E000459CFB /* ZFDouYinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinViewController.m; sourceTree = "<group>"; };
+		1E52C8732AB448B700459CFB /* ZFTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableData.m; sourceTree = "<group>"; };
+		1E52C8742AB448B700459CFB /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		1E52C8752AB448B700459CFB /* ZFTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableData.h; sourceTree = "<group>"; };
+		1E52C87A2AB4491700459CFB /* ZFDouYinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinCell.m; sourceTree = "<group>"; };
+		1E52C87B2AB4491700459CFB /* ZFDouYinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinCell.h; sourceTree = "<group>"; };
+		1E52C87E2AB4496F00459CFB /* ZFTableViewCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellLayout.m; sourceTree = "<group>"; };
+		1E52C87F2AB4496F00459CFB /* ZFDouYinCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinCellDelegate.h; sourceTree = "<group>"; };
+		1E52C8802AB4496F00459CFB /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		1E52C8812AB4496F00459CFB /* ZFTableViewCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellLayout.h; sourceTree = "<group>"; };
+		1E52C8822AB4496F00459CFB /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		1E52C8852AB449B200459CFB /* ZFDouYinControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinControlView.h; sourceTree = "<group>"; };
+		1E52C8862AB449B200459CFB /* ZFDouYinControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinControlView.m; sourceTree = "<group>"; };
+		1E52C8892AB44A3300459CFB /* ZFCustomControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCustomControlView.h; sourceTree = "<group>"; };
+		1E52C88A2AB44A3300459CFB /* ZFCustomControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCustomControlView.m; sourceTree = "<group>"; };
+		1E52C88C2AB44A6C00459CFB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		3F47F17FFBDC36C909F6B267 /* Pods-VideoPlayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayDemo.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayDemo/Pods-VideoPlayDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		56C5F229DE46FF1997385E2C /* Pods_VideoPlayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		64FD6591D92A650AD8CEF90A /* Pods-VideoPlayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayDemo.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayDemo/Pods-VideoPlayDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +96,7 @@
 		1E52C84F2AB3E80C00459CFB /* VideoPlayDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1E52C8782AB448F300459CFB /* Douyin */,
 				1E52C8502AB3E80C00459CFB /* AppDelegate.h */,
 				1E52C8512AB3E80C00459CFB /* AppDelegate.m */,
 				1E52C8562AB3E80C00459CFB /* ViewController.h */,
@@ -84,8 +110,64 @@
 				1E52C85E2AB3E80E00459CFB /* LaunchScreen.storyboard */,
 				1E52C8612AB3E80E00459CFB /* Info.plist */,
 				1E52C8622AB3E80E00459CFB /* main.m */,
+				1E52C88C2AB44A6C00459CFB /* PrefixHeader.pch */,
 			);
 			path = VideoPlayDemo;
+			sourceTree = "<group>";
+		};
+		1E52C8722AB448B700459CFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C8752AB448B700459CFB /* ZFTableData.h */,
+				1E52C8732AB448B700459CFB /* ZFTableData.m */,
+				1E52C8742AB448B700459CFB /* data.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E52C8782AB448F300459CFB /* Douyin */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C86F2AB447E000459CFB /* ZFDouYinViewController.h */,
+				1E52C8702AB447E000459CFB /* ZFDouYinViewController.m */,
+				1E52C8882AB44A1E00459CFB /* CustomView */,
+				1E52C87D2AB4496F00459CFB /* Other */,
+				1E52C8722AB448B700459CFB /* Model */,
+				1E52C8792AB4490600459CFB /* Views */,
+			);
+			path = Douyin;
+			sourceTree = "<group>";
+		};
+		1E52C8792AB4490600459CFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C8852AB449B200459CFB /* ZFDouYinControlView.h */,
+				1E52C8862AB449B200459CFB /* ZFDouYinControlView.m */,
+				1E52C87B2AB4491700459CFB /* ZFDouYinCell.h */,
+				1E52C87A2AB4491700459CFB /* ZFDouYinCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E52C87D2AB4496F00459CFB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C87E2AB4496F00459CFB /* ZFTableViewCellLayout.m */,
+				1E52C87F2AB4496F00459CFB /* ZFDouYinCellDelegate.h */,
+				1E52C8802AB4496F00459CFB /* NSString+Size.h */,
+				1E52C8812AB4496F00459CFB /* ZFTableViewCellLayout.h */,
+				1E52C8822AB4496F00459CFB /* NSString+Size.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		1E52C8882AB44A1E00459CFB /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C8892AB44A3300459CFB /* ZFCustomControlView.h */,
+				1E52C88A2AB44A3300459CFB /* ZFCustomControlView.m */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 		3AC53A81F1532C8EFC84853D /* Frameworks */ = {
@@ -168,6 +250,7 @@
 				1E52C8602AB3E80E00459CFB /* LaunchScreen.storyboard in Resources */,
 				1E52C85D2AB3E80E00459CFB /* Assets.xcassets in Resources */,
 				1E52C85B2AB3E80C00459CFB /* Main.storyboard in Resources */,
+				1E52C8772AB448B700459CFB /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,11 +320,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E52C8872AB449B200459CFB /* ZFDouYinControlView.m in Sources */,
+				1E52C8832AB4496F00459CFB /* ZFTableViewCellLayout.m in Sources */,
+				1E52C8712AB447E000459CFB /* ZFDouYinViewController.m in Sources */,
+				1E52C87C2AB4491700459CFB /* ZFDouYinCell.m in Sources */,
 				1E52C86E2AB3F4BB00459CFB /* VideoListViewController.m in Sources */,
+				1E52C8842AB4496F00459CFB /* NSString+Size.m in Sources */,
 				1E52C8582AB3E80C00459CFB /* ViewController.m in Sources */,
 				1E52C8522AB3E80C00459CFB /* AppDelegate.m in Sources */,
 				1E52C86B2AB3F42300459CFB /* VideoViewController.m in Sources */,
 				1E52C8632AB3E80E00459CFB /* main.m in Sources */,
+				1E52C8762AB448B700459CFB /* ZFTableData.m in Sources */,
+				1E52C88B2AB44A3300459CFB /* ZFCustomControlView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +478,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = V4U8N3SGJP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoPlayDemo/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoPlayDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -418,6 +510,8 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VideoPlayDemo/PrefixHeader.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VideoPlayDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
