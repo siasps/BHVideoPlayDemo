@@ -1,0 +1,36 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - Masonry (1.1.0)
+  - MJRefresh (3.7.5)
+  - ZFPlayer (4.1.4):
+    - ZFPlayer/Core (= 4.1.4)
+  - ZFPlayer/AVPlayer (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.4)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture
+  - Masonry
+  - MJRefresh
+  - ZFPlayer (~> 4.0)
+  - ZFPlayer/AVPlayer (~> 4.0)
+  - ZFPlayer/ControlView (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - FDFullscreenPopGesture
+    - Masonry
+    - MJRefresh
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
+
+PODFILE CHECKSUM: e782153f720045fadf2a3c24c5984c72ce488ecb
+
+COCOAPODS: 1.12.1
