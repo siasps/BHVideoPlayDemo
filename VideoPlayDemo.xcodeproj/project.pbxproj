@@ -152,10 +152,10 @@
 		1E52C87D2AB4496F00459CFB /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				1E52C87E2AB4496F00459CFB /* ZFTableViewCellLayout.m */,
 				1E52C87F2AB4496F00459CFB /* ZFDouYinCellDelegate.h */,
-				1E52C8802AB4496F00459CFB /* NSString+Size.h */,
 				1E52C8812AB4496F00459CFB /* ZFTableViewCellLayout.h */,
+				1E52C87E2AB4496F00459CFB /* ZFTableViewCellLayout.m */,
+				1E52C8802AB4496F00459CFB /* NSString+Size.h */,
 				1E52C8822AB4496F00459CFB /* NSString+Size.m */,
 			);
 			path = Other;

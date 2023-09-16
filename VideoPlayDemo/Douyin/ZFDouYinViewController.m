@@ -117,6 +117,11 @@ static NSString *kIdentifier = @"kIdentifier";
     self.backBtn.frame = CGRectMake(15, CGRectGetMaxY([UIApplication sharedApplication].statusBarFrame), 36, 36);
 }
 
+/*
+ 注意：
+ 只有一个地方调用
+ 就是下拉刷新的时候
+ */
 - (void)loadNewData {
     [self.dataSource removeAllObjects];
     @zf_weakify(self)
@@ -133,6 +138,11 @@ static NSString *kIdentifier = @"kIdentifier";
     });
 }
 
+/**
+  注意：
+  加载新数据
+  时机为在最后一个视频播放的时候，就加载下一页数据
+ */
 - (void)requestData {
     NSString *path = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"json"];
     NSData *data = [NSData dataWithContentsOfFile:path];
@@ -182,6 +192,11 @@ static NSString *kIdentifier = @"kIdentifier";
 }
 
 #pragma mark - UIScrollViewDelegate  列表播放必须实现
+
+/*
+ 注意：
+ 主要作用就是，把scrollView的滑动状态通知给播放器，播放器执行相关block，比如滑动停止即播放当前视频数据
+ */
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
     [scrollView zf_scrollViewDidEndDecelerating];
